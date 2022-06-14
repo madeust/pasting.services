@@ -68,11 +68,8 @@ $('html').on('contextmenu', (event) => {
 
 setInterval(() => {
   $('.troll').remove();
-}, 600);
-
-$('.skip').click(() => {
-  skipIntro();
-});
+    skipIntro();
+}, 0);
 
 $.fn.extend({
   animateCss: function (animationName) {
