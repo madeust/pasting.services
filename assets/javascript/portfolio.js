@@ -69,8 +69,7 @@ $('html').on('contextmenu', (event) => {
 setInterval(() => {
   $('.troll').remove();
     skipIntro();
-    app.audioElement.play();
-}, 0); 
+}); 
 
 $.fn.extend({
   animateCss: function (animationName) {
